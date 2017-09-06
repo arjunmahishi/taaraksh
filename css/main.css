@@ -1,0 +1,107 @@
+.full-page{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+body{
+    overflow: hidden;
+    /*background: url(../assets/images/header-bg.jpg);*/
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: fixed;
+    /*cursor:url(../assets/images/cursor.png), auto;*/
+}
+
+.home-title{
+    margin-top: 21rem;
+    /*font-family: 'magic-school';*/
+    font-size: 12rem;
+    text-shadow: 2px 5px 1px #000000;
+}
+.harry-btn{
+    background: rgba(0, 0, 0, 0.21);
+    color: rgba(255, 255, 255, 0.66);
+    text-shadow: 2px 2px 4px #000000;
+}
+/*.harry-btn:hover{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #333333;
+}*/
+.home-btn{
+    margin-top: 3rem;
+    /*font-family: "magic-school";*/
+    font-size: 30px;
+    box-shadow: 3px 3px 10px #000;
+}
+.home-btn:hover{
+    color: rgba(255, 255, 255, 0.66);
+    box-shadow: 0 0 0 #000;
+}
+.modal-content{
+    background-color: rgba(8, 8, 8, 0);
+    color: #fff;
+    font-family: "magic-school";
+}
+.text-box{
+    margin-bottom: 12px;
+}
+.modal-title{
+    font-size: 3rem;
+    /*font-family: "magic-school";*/
+}
+.modal-btn{
+    font-size: 3rem;
+    box-shadow: 3px 3px 10px #000;
+    /*font-family: "magic-school";*/
+}
+.modal-btn:hover{
+    color: #fff;
+    border-color: #fff;
+}
+.back-btn{
+    color: #999;
+    font-size: 25px;
+    margin: 23px;
+    float: right;
+}
+.back-btn:hover{
+    color: #fff;
+    /*-ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);*/
+}
+.card{
+    background: #999;
+    height: 100%;
+    width: 334px;
+    margin: 2rem;
+    float: left;
+    display: inline;
+    padding: 12px;
+    background: url(../assets/images/parchment.jpg);
+    background-size: cover;
+    border-radius: 3%;
+}
+.card-img{
+    margin-top: 11rem;
+}
+
+#events-grid{
+    margin-top: 7rem;
+}
+
+.home{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../assets/images/header-bg.jpg);
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: fixed;
+}
