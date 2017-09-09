@@ -7,99 +7,72 @@
     <title>Taaraksh</title>
     <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/rain.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/events.css" rel="stylesheet">
   </head>
 
 <style>
     @font-face{
-        font-family: 'magic-school';
-        src: url('assets/fonts/magic-school.ttf');
+        font-family: 'prognostic';
+        src: url('assets/fonts/prognostic.ttf');
     }
 </style>
 
 <body>
 
-    <div class="home" id="home">
-        <h2 class="home-title col-xs-offset-6">Taaraksh</h2>
-        <div class="row  col-xs-offset-6">
-            <button class="btn harry-btn home-btn col-xs-offset-1" onclick="showEvents()">Events</button>
-            <button class="btn harry-btn home-btn col-xs-offset-1" onclick="showSponcers()">Sponcers</button>
-            <button class="btn harry-btn home-btn col-xs-offset-1" onclick="showTeam()">Team</button>
-        </div>
-        <div class="row col-xs-offset-7">
-            <button class="btn harry-btn home-btn col-xs-offset-1" onclick="showLogin()">Login</button>
-            <button class="btn harry-btn home-btn col-xs-offset-1" onclick="showRegister()">Register</button>
-        </div>
-    </div>
+    <div class="ct" id="t1">
+    <div class="ct" id="t2">
+        <div class="ct" id="t3">
+        <div class="ct" id="t4">
+            <div class="ct" id="t5">
+            <ul id="menu">
+                <a href="#t1"><li class="icon fa fa-home" id="uno"></li></a>
+                <a href="#t2"><li class="icon fa fa-cogs" id="dos"></li></a>
+                <a href="#t3"><li class="icon fa fa-life-ring" id="tres"></li></a>
+                <a href="#t4"><li class="icon fa fa-users" id="cuatro"></li></a>
+                <!--<a href="#t5"><li class="icon fa fa-users" id="cinco"></li></a>-->
+            </ul>
 
-    <div class="full-page" id="events">
-        <i class="fa fa-times-circle back-btn" onclick="showHome()" aria-hidden="true"></i>
-        <!--<div id="events-grid" class="col-xs-offset-1"></div>-->
-        <div class="ct" id="t1">
-        <div class="ct" id="t2">
-            <div class="ct" id="t3">
-            <div class="ct" id="t4">
-                <div class="ct" id="t5">
-                <ul id="menu">
-                    <a href="#t1"><li class="icon fa fa-bolt" id="uno"></li></a>
-                    <a href="#t2"><li class="icon fa fa-keyboard-o" id="dos"></li></a>
-                    <a href="#t3"><li class="icon fa fa-rocket" id="tres"></li></a>
-                    <a href="#t4"><li class="icon fa fa-dribbble" id="cuatro"></li></a>
-                    <a href="#t5"><li class="icon fa fa-plus-circle" id="cinco"></li></a>
-                </ul>
-                <div class="page" id="p1">
-                    <section class="icon fa fa-bolt"><span class="title">Bolt</span><span class="hint">Like this pen to see the magic!...<br> Just kidding, it won't happen anything but I'll be really happy If you do so.</span></section>  
-                </div>
-                <div class="page" id="p2">
-                    <section class="icon fa fa-keyboard-o"><span class="title">Type</span></section>
-                </div>  
-                <div class="page" id="p3">
-                    <section class="icon fa fa-rocket"><span class="title">parseltongue</span></section>
-                </div>
-                <div class="page" id="p4">
-                    <section class="icon fa fa-dribbble">
-                    <span class="title">triwizard</span>
-                    <p class="hint">
-                        <a href="https://dribbble.com/albertohartzet" target="_blank">Im ready to play, <span class="hint line-trough">invite me </span> find me</a>
-                    </p>
-                    <p class="hint">Already invited by <a href="http://www.dribbble.com/mrpeters" target="_blank">Stan Peters</a></p>
-                    </section>
-                </div> 
-                <div class="page" id="p5">
-                    <section class="icon fa fa-plus-circle">
-                    <span class="title">More</span>
-                    <p class="hint">
-                        <span>You love one page & CSS only stuff? </span><br/>
-                        <a href="https://codepen.io/hrtzt/details/pgXMYb/" target="_blank">check this pen "Pure CSS One page vertical navigation"</a>
-                    </p>
-                    </section>
-                </div> 
+
+            <div class="page" id="p1">
+                <div class="home">
+                    <center class="title">Taaraksh'17</center>
                 </div>
             </div>
+            
+            
+            <div class="page" id="p2">
+                <center class="sub-title">EVENTS</center>
+            </div>  
+            
+            
+            <div class="page" id="p3">
+                <center class="sub-title">SPONSORS</center>                
+            </div>
+            
+            
+            <div class="page" id="p4">
+                <center class="sub-title">TEAM</center>
+            </div> 
+            
+            
+            <!--<div class="page" id="p5">
+                <section class="icon fa fa-plus-circle">
+                <span class="title">More</span>
+                <p class="hint">
+                    <span>You love one page & CSS only stuff? </span><br/>
+                    <a href="https://codepen.io/hrtzt/details/pgXMYb/" target="_blank">check this pen "Pure CSS One page vertical navigation"</a>
+                </p>
+                </section>
+            </div> -->
             </div>
         </div>
         </div>
     </div>
-
-
-    <div class="full-page" id="sponcers">
-        <i class="fa fa-times-circle back-btn" onclick="showHome()" aria-hidden="true"></i>
-    </div>
-
-
-    <div class="full-page" id="team">
-        <i class="fa fa-times-circle back-btn" onclick="showHome()" aria-hidden="true"></i>
     </div>
 
 </body>
     <script src="vendors/jquery/jquery.min.js"></script>
     <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/rain.js"></script>
-    <script src="js/events.js"></script>
-</html>
+]</html>
 
-<div id="regis-plate"></div><div id="login-plate"></div>
 
