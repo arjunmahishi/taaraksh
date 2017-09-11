@@ -25,6 +25,7 @@ html, body, .page {
 
 #p2, #p3, #p4, #p5 {
   left: 200%;
+  overflow-y: scroll;
 }
 
 #p1 { background: darkslateblue; }
@@ -251,8 +252,14 @@ a {
     font-size: 3rem;
 }
 
-@media screen and (max-width: 540px) {
+.event-name{
+  
+}
+
+@media screen and (max-width: 540px) { /* mobile */
     
 }
 
-/*@media screen and ()*/
+@media screen and (min-width:1025px){ /* Desktop */
+
+}
