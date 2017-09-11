@@ -37,10 +37,10 @@ html, body, .page {
 #t3:target #p3,
 #t4:target #p4,
 #t5:target #p5 {
-  transform: translateX(-190%);
-  -webkit-transform: translateX(-190%);
-  -moz-transform: translateX(-190%);
-  -o-transform: translateX(-190%);
+  transform: translateX(-200%);
+  -webkit-transform: translateX(-200%);
+  -moz-transform: translateX(-200%);
+  -o-transform: translateX(-200%);
   transition-delay: .4s !important;
 }
 
@@ -245,6 +245,10 @@ a {
     margin-top: 5rem;
     box-shadow: 2px 2px 18px #000;
     background-color: #000;
+}
+
+.spinner{
+    font-size: 3rem;
 }
 
 @media screen and (max-width: 540px) {
