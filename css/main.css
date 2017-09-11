@@ -216,3 +216,22 @@ a {
     font-family: prognostic;
     text-shadow: 7px 7px 7px rgb(0, 0, 0);
 }
+.modal-content{
+    background-color: rgba(8, 8, 8, 0);
+    color: #fff;
+    font-family: "magic-school";
+}
+.text-box{
+    margin-bottom: 12px;
+}
+.modal-title{
+    font-size: 3rem;
+}
+.modal-btn{
+    font-size: 3rem;
+    box-shadow: 3px 3px 10px #000;
+}
+.modal-btn:hover{
+    color: #fff;
+    border-color: #fff;
+}
