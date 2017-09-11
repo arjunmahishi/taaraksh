@@ -28,9 +28,9 @@ html, body, .page {
 }
 
 #p1 { background: darkslateblue; }
-#p2 { background: rgba(255, 99, 71, 0.58); }
-#p3 { background: rgba(255, 215, 0, 0.58); }
-#p4 {background: rgba(255, 20, 147, 0.58);}
+#p2 { background: rgba(255, 99, 71, 0.95); }
+#p3 { background: rgba(255, 215, 0, 0.95); }
+#p4 {background: rgba(255, 20, 147, 0.95);}
 #p5 { background: rebeccapurple; }
 
 #t2:target #p2,
@@ -235,3 +235,20 @@ a {
     color: #fff;
     border-color: #fff;
 }
+.catagory-spinner{
+
+}
+
+.card{
+    border-width: 13rem;
+    border-color: #ffffff;
+    margin-top: 5rem;
+    box-shadow: 2px 2px 18px #000;
+    background-color: #000;
+}
+
+@media screen and (max-width: 540px) {
+    
+}
+
+/*@media screen and ()*/
