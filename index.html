@@ -15,9 +15,28 @@
         font-family: 'prognostic';
         src: url('assets/fonts/prognostic.ttf');
     }
+  
+#background-video{
+  width: 100%;height:100%;
+  position:initial;
+  overflow:hidden;
+  background-color:#000;
+  color:white;
+}
+#background-video video{
+  position:absolute;
+  width:100%;height:100%;
+  top:0;left:0;
+  object-fit:cover;
+  pointer-events:none;
+  opacity:.5;
+}
 </style>
 
 <body>
+  <audio autoplay loop>
+  <source src="assets/Free.mp3" type="audio/mpeg">
+</audio>
 
     <div class="ct" id="t1">
     <div class="ct" id="t2">
@@ -26,8 +45,8 @@
             <div class="ct" id="t5">
             <ul id="menu">
                 <a href="#t1"><li class="icon fa fa-home" id="uno"></li></a>
-                <a href="#t2"><li class="icon fa fa-cogs" id="dos"></li></a>
-                <a href="#t3"><li class="icon fa fa-life-ring" id="tres"></li></a>
+                <a href="#t2"><li class="icon fa fa-calendar-check-o" id="dos"></li></a>
+                <a href="#t3"><li class="icon fa fa-handshake-o" id="tres"></li></a>
                 <a href="#t4"><li class="icon fa fa-users" id="cuatro"></li></a>
                 <!--<a href="#t5"><li class="icon fa fa-users" id="cinco"></li></a>-->
             </ul>
@@ -35,13 +54,29 @@
 
             <div class="page" id="p1">
                 <div class="home">
-                    <center class="title">Taaraksh'17</center>
+                  <div id="background-video" >
+                     <video autobuffer loop muted autoplay poster="image.jpg">
+                      <source type="video/mp4" src="assets/ez.mp4" width="1">
+                      </video>
+                    
+
+                    <center class="title"><h1 class="display-1" style="font-size: 70px;">Taraksh'17</h1></center>
+                        <center class="sub-title">National Level Culturals
+                         <h3 class="display-1" style="font-size: 70px;"></h3><br>
+                             <button type="button" class="btn btn-primary"><font size="10" family="prognostic">Register Now</font></button>
+                    </center>
+                   
                 </div>
             </div>
             
-            
+            <!-- Event section -->
             <div class="page" id="p2">
-                <center class="sub-title">EVENTS</center>
+                <center class="sub-title">EVENTS<br></center>
+   
+
+              
+              
+              
             </div>  
             
             
